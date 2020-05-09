@@ -16,6 +16,6 @@ spec:
         image: nginx
         resources:
           limits:
-            memory: "256Mi"
-            cpu: "1000m"
+            memory: "512Mi"
+            cpu: "2000m"
   replicas: 1
